@@ -8,13 +8,12 @@ const Menu = () => {
     <div className="menu">
       <h1 className="menuTitle">Our Menu</h1>
       <div className="menuList">
-        {MenuList.map((menuItem, key) => {
+        {MenuList.map((menuItemData, key) => {
           return (
             <MenuItem
-              key={key}
-              image={menuItem.image}
-              name={menuItem.name}
-              price={menuItem.price}
+              image={menuItemData.image}
+              name={menuItemData.name}
+              price={menuItemData.price}
             />
           );
         })}

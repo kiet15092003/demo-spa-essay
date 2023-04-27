@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function MenuItem({ image, name, price }) {
   return (
-
     <div className="card menuItem">
       <div className="row g-0">
         <div className="col-md-6">
@@ -17,10 +16,6 @@ function MenuItem({ image, name, price }) {
           </div>
         </div>
       </div>
-      {/* <div style={{ backgroundImage: `url(${image})` }}> </div>
-      <h3> {name} </h3>
-      <p> ${price} </p>
-      <button> ORDER NOW </button> */}
     </div>
   );
 }
